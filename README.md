@@ -1,3 +1,51 @@
-# Professional README Generator Starter Code
+# Professional README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Description
+
+This application is designed to help developers save time when working on projects so they can spend less time MDing and more time JSing.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [Deployment](#deployment)
+- [Questions](#questions)
+- [License](#license)
+
+## Installation
+
+To install simply clone this repo to your desired location.
+
+## Usage
+
+You can use this program by navigating to the file path in a NodeJS enabled Console and typing "node index.js". By answering the proceeding questions you will be given a newly generated README file.
+
+## Deployment
+
+https://github.com/codeDevLogan
+
+## Contribute
+
+To contribute to this application, simply clone the repository, create a branch and get to work. I would love to see what you come up with.
+
+## Tests
+
+To run tests follow the usage guide and play around with your answers.
+
+## License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
+
+the above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Questions
+
+Got Questions?
+
+Email Me: [Email](mailto:codeDevLogan@gmail.com)
+
+GitHub: [codeDevLogan](https://github.com/codeDevLogan)

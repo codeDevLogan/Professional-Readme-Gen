@@ -26,10 +26,30 @@ const questions = [
         message: 'Describe how a user can use your application.'
     },
     {
+        type: 'input',
+        name: 'contributeGuide',
+        message: 'Give a short guide for a dev who wants to contribute.'
+    },
+    {
+        type: 'input',
+        name: 'deployUrl',
+        message: 'Provide a link to the Deployed Application'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Provide an email for Users and Devs to reach you at for questions:'
+    },
+    {
+        type: 'input',
+        name: 'gitHub',
+        message: 'Provide your Git Hub username for users and devs to look you up.'
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Which liscence are you using?',
-        choices: ['MIT License', 'Apache', 'BSD-3', 'BSD-2', 'N/A']
+        choices: ['MIT License', 'Apache_2.0', 'BSD_3', 'BSD_2', 'N/A']
     },
     {
         type: 'input',
@@ -65,22 +85,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((response) => {
-        switch(response.license){
-            case 'MIT License':
-                response.license = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-                break;
-            case 'Apache':
-                response.license = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-                break;
-            case 'BSD-2':
-                response.license = '[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)'
-                break;
-            case 'BSD-3':
-                response.license = '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'
-                break;
-            default:
-                break;
-        }
+        
         writeToFile('README.md', gM.generateMarkdown(response));
     }) 
 }
